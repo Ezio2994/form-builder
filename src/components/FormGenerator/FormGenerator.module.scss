@@ -1,0 +1,64 @@
+form {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px;
+
+  h1,
+  h2 {
+    margin: 20px 0;
+  }
+
+  h2 {
+    color: grey;
+  }
+
+  div {
+    label {
+      display: block;
+      margin: 10px 0;
+    }
+
+    input,
+    select,
+    textarea {
+      height: 40px;
+      width: 100%;
+      border: 1px solid darkblue;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 18px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    textarea {
+      height: unset;
+    }
+  }
+
+  .requirementMessage {
+    margin: 20px auto;
+    background-color: lightcoral;
+    height: 30px;
+    width: fit-content;
+  }
+
+  button {
+    display: block;
+    margin: 20px auto;
+    background-color: grey;
+    color: whitesmoke;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 21px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
